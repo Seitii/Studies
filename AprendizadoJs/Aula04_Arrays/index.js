@@ -39,3 +39,9 @@ const removido = aluno.pop();
 // METODO MAIS UTILIZADO PARA REMOVER ELMENTO NO COMEÇO
 aluno.shift();
 
+
+
+// ATRIBUIÇÃO VIA DESESTRUTURAÇÃO
+const numeros = [[1,2,3] [4,5,6], [7,8,9]];
+
+console.log(numeros[1][2]);

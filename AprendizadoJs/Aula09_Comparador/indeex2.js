@@ -13,7 +13,7 @@ Operadores logicos
 */
 const expressao_AND = true && true && true && false;
 console.log(expressao_AND)
-
+ 
 
 const expressao_OR = false || false || false || true;
 console.log(expressao_OR)

@@ -44,3 +44,23 @@ const pessoa5 = criaPessoa('Marcos', 'Silva', 32);
 console.log(pessoa3.nome, pessoa4.nome, pessoa5.nome,)
 
 
+// ATRIBUIÇÃO VIA DESESTRUTURAÇÃO
+
+const pessoa = { 
+    nome: 'Hugo',
+    sobrenome: 'Odajima',
+    idade: 21,
+    endereco: {
+        rua: 'Xv de novembro',
+        numero: 320
+    }
+};
+
+//const {nome, sobrenome, idade} = pessoa; // utilizado mt no react
+//console.log(nome, sobrenome);
+
+//const {nome: n = 'Luis', sobrenome} = pessoa;
+//console.log(n, sobrenome);
+
+const {edereco: {rua, numero: n = 123 }, endereco} = pessoa;
+console.log(rua, n, endereco)

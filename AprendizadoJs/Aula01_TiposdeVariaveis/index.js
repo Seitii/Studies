@@ -1,3 +1,7 @@
+// var -> TEM ESCOPO DE FUNÇÃO
+// let -> TEM ESCOPO DE BLOCO {...BLOCO}
+// 
+
 console.log("hello world!"); 
 console.log('Meu nome é "Hugo", estou aprendendo JavaScript às', 10, "da manhã")
 let nome1 = "Hugo"; // cria variavel que é modificavel
